@@ -1,7 +1,7 @@
 # DepTrain
 Training dependency parser with spaCy in Python3.
 
-Task to ensure rapper name 'Stefflon Don' tagged appropriately. Includes training sentences featuring name and test set of paragraph mentioning name. Uses standard spaCy English model, i.e. CNN trained on OntoNotes, with GloVe vectors trained on Common Crawl. Command to run training:
+Task to ensure rapper name 'Stefflon Don' tagged appropriately. Includes training sentences and test paragraph mentioning name. Uses standard spaCy English model, i.e. CNN trained on OntoNotes, with GloVe vectors trained on Common Crawl. Command to run training:
 
 `python train.py -m en [-n] [-o]`
 
