@@ -5,6 +5,6 @@ Task to ensure rapper name 'Stefflon Don' tagged appropriately. Includes trainin
 
 `python train.py -m en [-n] [-o]`
 
-Optional arguments for number of iterations [-n] and output directory [-o].
+Optional arguments for number of iterations [-n] and output directory [-o]. Visualizes dependency parse of test paragraph using displaCy, by default port 5000 (localhost:5000 in browser).
 
 Requires spaCy 2.0.x and Python 3.x.
