@@ -5,7 +5,7 @@ Task to ensure rapper name 'Stefflon Don' tagged appropriately. Includes trainin
 
 `python train.py -m en [-n] [-o]`
 
-Optional arguments for number of iterations [-n] and output directory [-o]. Visualizes dependency parse of test paragraph using displaCy, by default port 5000 (localhost:5000 in browser).
+Optional arguments for number of iterations e.g. [-n 30] and output directory [-o /path/to/dir]. Visualizes dependency parse of test paragraph using displaCy, by default port 5000 (localhost:5000 in browser).
 
 Repo contains source texts parsed by Stanford CoreNLP in .conllu format.
 
